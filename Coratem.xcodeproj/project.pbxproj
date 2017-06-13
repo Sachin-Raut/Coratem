@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3148A2BC1EC20EF300FBDD2A /* UIImage+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2BB1EC20EF300FBDD2A /* UIImage+Scale.swift */; };
+		3148A2D31EC2D20A00FBDD2A /* GLCalendarDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2BF1EC2D20900FBDD2A /* GLCalendarDateRange.m */; };
+		3148A2D41EC2D20A00FBDD2A /* GLCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2C21EC2D20900FBDD2A /* GLCalendarDayCell.m */; };
+		3148A2D51EC2D20A00FBDD2A /* GLCalendarDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2C31EC2D20900FBDD2A /* GLCalendarDayCell.xib */; };
+		3148A2D61EC2D20A00FBDD2A /* GLCalendarDayCellBackgroundCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2C51EC2D20900FBDD2A /* GLCalendarDayCellBackgroundCover.m */; };
+		3148A2D71EC2D20A00FBDD2A /* GLCalendarMonthCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2C71EC2D20900FBDD2A /* GLCalendarMonthCoverView.m */; };
+		3148A2D81EC2D20A00FBDD2A /* GLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2C91EC2D20900FBDD2A /* GLCalendarView.m */; };
+		3148A2D91EC2D20A00FBDD2A /* GLCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2CA1EC2D20900FBDD2A /* GLCalendarView.xib */; };
+		3148A2DA1EC2D20A00FBDD2A /* GLDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2CC1EC2D20900FBDD2A /* GLDateUtils.m */; };
+		3148A2DB1EC2D20A00FBDD2A /* gl-calendar-magnify-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2CE1EC2D20900FBDD2A /* gl-calendar-magnify-glass.png */; };
+		3148A2DC1EC2D20A00FBDD2A /* gl-calendar-magnify-glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2CF1EC2D20900FBDD2A /* gl-calendar-magnify-glass@2x.png */; };
+		3148A2DD1EC2D20A00FBDD2A /* gl-calendar-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2D01EC2D20A00FBDD2A /* gl-calendar-shadow.png */; };
+		3148A2DE1EC2D20A00FBDD2A /* gl-calendar-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2D11EC2D20A00FBDD2A /* gl-calendar-shadow@2x.png */; };
+		3148A2DF1EC2D20A00FBDD2A /* gl-calendar-shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3148A2D21EC2D20A00FBDD2A /* gl-calendar-shadow@3x.png */; };
+		3148A2E21EC2D44600FBDD2A /* TimeframeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148A2E11EC2D44600FBDD2A /* TimeframeViewController.swift */; };
+		314DFB341EC039E100CB2409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314DFB331EC039E100CB2409 /* AppDelegate.swift */; };
+		314DFB391EC039E100CB2409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314DFB371EC039E100CB2409 /* Main.storyboard */; };
+		314DFB3C1EC039E100CB2409 /* Coratem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 314DFB3A1EC039E100CB2409 /* Coratem.xcdatamodeld */; };
+		314DFB3E1EC039E100CB2409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314DFB3D1EC039E100CB2409 /* Assets.xcassets */; };
+		314DFB411EC039E100CB2409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314DFB3F1EC039E100CB2409 /* LaunchScreen.storyboard */; };
+		314DFB4B1EC0513300CB2409 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314DFB4A1EC0513300CB2409 /* DetailTableViewController.swift */; };
+		314DFB4D1EC0BE5700CB2409 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314DFB4C1EC0BE5700CB2409 /* MasterViewController.swift */; };
+		31F13FE41EC35B2A000CDF2C /* MLPAutoCompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F13FDE1EC35B2A000CDF2C /* MLPAutoCompleteTextField.m */; };
+		31F13FE51EC35B2A000CDF2C /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F13FE31EC35B2A000CDF2C /* NSString+Levenshtein.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31054CCF1EC4ED8300BC9FD3 /* Coratem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coratem.entitlements; sourceTree = "<group>"; };
+		3148A2BB1EC20EF300FBDD2A /* UIImage+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Scale.swift"; sourceTree = "<group>"; };
+		3148A2BE1EC2D20900FBDD2A /* GLCalendarDateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCalendarDateRange.h; sourceTree = "<group>"; };
+		3148A2BF1EC2D20900FBDD2A /* GLCalendarDateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCalendarDateRange.m; sourceTree = "<group>"; };
+		3148A2C11EC2D20900FBDD2A /* GLCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCalendarDayCell.h; sourceTree = "<group>"; };
+		3148A2C21EC2D20900FBDD2A /* GLCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCalendarDayCell.m; sourceTree = "<group>"; };
+		3148A2C31EC2D20900FBDD2A /* GLCalendarDayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLCalendarDayCell.xib; sourceTree = "<group>"; };
+		3148A2C41EC2D20900FBDD2A /* GLCalendarDayCellBackgroundCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCalendarDayCellBackgroundCover.h; sourceTree = "<group>"; };
+		3148A2C51EC2D20900FBDD2A /* GLCalendarDayCellBackgroundCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCalendarDayCellBackgroundCover.m; sourceTree = "<group>"; };
+		3148A2C61EC2D20900FBDD2A /* GLCalendarMonthCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCalendarMonthCoverView.h; sourceTree = "<group>"; };
+		3148A2C71EC2D20900FBDD2A /* GLCalendarMonthCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCalendarMonthCoverView.m; sourceTree = "<group>"; };
+		3148A2C81EC2D20900FBDD2A /* GLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCalendarView.h; sourceTree = "<group>"; };
+		3148A2C91EC2D20900FBDD2A /* GLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCalendarView.m; sourceTree = "<group>"; };
+		3148A2CA1EC2D20900FBDD2A /* GLCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLCalendarView.xib; sourceTree = "<group>"; };
+		3148A2CB1EC2D20900FBDD2A /* GLDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDateUtils.h; sourceTree = "<group>"; };
+		3148A2CC1EC2D20900FBDD2A /* GLDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDateUtils.m; sourceTree = "<group>"; };
+		3148A2CE1EC2D20900FBDD2A /* gl-calendar-magnify-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gl-calendar-magnify-glass.png"; sourceTree = "<group>"; };
+		3148A2CF1EC2D20900FBDD2A /* gl-calendar-magnify-glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gl-calendar-magnify-glass@2x.png"; sourceTree = "<group>"; };
+		3148A2D01EC2D20A00FBDD2A /* gl-calendar-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gl-calendar-shadow.png"; sourceTree = "<group>"; };
+		3148A2D11EC2D20A00FBDD2A /* gl-calendar-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gl-calendar-shadow@2x.png"; sourceTree = "<group>"; };
+		3148A2D21EC2D20A00FBDD2A /* gl-calendar-shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gl-calendar-shadow@3x.png"; sourceTree = "<group>"; };
+		3148A2E01EC2D22F00FBDD2A /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		3148A2E11EC2D44600FBDD2A /* TimeframeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeframeViewController.swift; sourceTree = "<group>"; };
+		314DFB301EC039E100CB2409 /* Coratem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coratem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314DFB331EC039E100CB2409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		314DFB381EC039E100CB2409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		314DFB3B1EC039E100CB2409 /* Coratem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coratem.xcdatamodel; sourceTree = "<group>"; };
+		314DFB3D1EC039E100CB2409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		314DFB401EC039E100CB2409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		314DFB421EC039E200CB2409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314DFB4A1EC0513300CB2409 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		314DFB4C1EC0BE5700CB2409 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		31F13FDD1EC35B2A000CDF2C /* MLPAutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPAutoCompleteTextField.h; sourceTree = "<group>"; };
+		31F13FDE1EC35B2A000CDF2C /* MLPAutoCompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPAutoCompleteTextField.m; sourceTree = "<group>"; };
+		31F13FDF1EC35B2A000CDF2C /* MLPAutoCompleteTextFieldDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPAutoCompleteTextFieldDataSource.h; sourceTree = "<group>"; };
+		31F13FE01EC35B2A000CDF2C /* MLPAutoCompleteTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPAutoCompleteTextFieldDelegate.h; sourceTree = "<group>"; };
+		31F13FE11EC35B2A000CDF2C /* MLPAutoCompletionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPAutoCompletionObject.h; sourceTree = "<group>"; };
+		31F13FE21EC35B2A000CDF2C /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Levenshtein.h"; sourceTree = "<group>"; };
+		31F13FE31EC35B2A000CDF2C /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Levenshtein.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314DFB2D1EC039E100CB2409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3148A2BD1EC2D20900FBDD2A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3148A2BE1EC2D20900FBDD2A /* GLCalendarDateRange.h */,
+				3148A2BF1EC2D20900FBDD2A /* GLCalendarDateRange.m */,
+				3148A2C01EC2D20900FBDD2A /* GLCalendarDayCell */,
+				3148A2C61EC2D20900FBDD2A /* GLCalendarMonthCoverView.h */,
+				3148A2C71EC2D20900FBDD2A /* GLCalendarMonthCoverView.m */,
+				3148A2C81EC2D20900FBDD2A /* GLCalendarView.h */,
+				3148A2C91EC2D20900FBDD2A /* GLCalendarView.m */,
+				3148A2CA1EC2D20900FBDD2A /* GLCalendarView.xib */,
+				3148A2CB1EC2D20900FBDD2A /* GLDateUtils.h */,
+				3148A2CC1EC2D20900FBDD2A /* GLDateUtils.m */,
+				3148A2CD1EC2D20900FBDD2A /* Images */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3148A2C01EC2D20900FBDD2A /* GLCalendarDayCell */ = {
+			isa = PBXGroup;
+			children = (
+				3148A2C11EC2D20900FBDD2A /* GLCalendarDayCell.h */,
+				3148A2C21EC2D20900FBDD2A /* GLCalendarDayCell.m */,
+				3148A2C31EC2D20900FBDD2A /* GLCalendarDayCell.xib */,
+				3148A2C41EC2D20900FBDD2A /* GLCalendarDayCellBackgroundCover.h */,
+				3148A2C51EC2D20900FBDD2A /* GLCalendarDayCellBackgroundCover.m */,
+			);
+			path = GLCalendarDayCell;
+			sourceTree = "<group>";
+		};
+		3148A2CD1EC2D20900FBDD2A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3148A2CE1EC2D20900FBDD2A /* gl-calendar-magnify-glass.png */,
+				3148A2CF1EC2D20900FBDD2A /* gl-calendar-magnify-glass@2x.png */,
+				3148A2D01EC2D20A00FBDD2A /* gl-calendar-shadow.png */,
+				3148A2D11EC2D20A00FBDD2A /* gl-calendar-shadow@2x.png */,
+				3148A2D21EC2D20A00FBDD2A /* gl-calendar-shadow@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		314DFB271EC039E100CB2409 = {
+			isa = PBXGroup;
+			children = (
+				314DFB321EC039E100CB2409 /* Coratem */,
+				314DFB311EC039E100CB2409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314DFB311EC039E100CB2409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314DFB301EC039E100CB2409 /* Coratem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314DFB321EC039E100CB2409 /* Coratem */ = {
+			isa = PBXGroup;
+			children = (
+				31054CCF1EC4ED8300BC9FD3 /* Coratem.entitlements */,
+				314DFB331EC039E100CB2409 /* AppDelegate.swift */,
+				314DFB371EC039E100CB2409 /* Main.storyboard */,
+				314DFB4A1EC0513300CB2409 /* DetailTableViewController.swift */,
+				31F13FE61EC35B3E000CDF2C /* Helper */,
+				314DFB4C1EC0BE5700CB2409 /* MasterViewController.swift */,
+				314DFB3D1EC039E100CB2409 /* Assets.xcassets */,
+				314DFB3F1EC039E100CB2409 /* LaunchScreen.storyboard */,
+				314DFB421EC039E200CB2409 /* Info.plist */,
+				3148A2E01EC2D22F00FBDD2A /* BridgingHeader.h */,
+				314DFB3A1EC039E100CB2409 /* Coratem.xcdatamodeld */,
+			);
+			path = Coratem;
+			sourceTree = "<group>";
+		};
+		31F13FDC1EC35B2A000CDF2C /* MLPAutoCompleteTextField */ = {
+			isa = PBXGroup;
+			children = (
+				31F13FDD1EC35B2A000CDF2C /* MLPAutoCompleteTextField.h */,
+				31F13FDE1EC35B2A000CDF2C /* MLPAutoCompleteTextField.m */,
+				31F13FDF1EC35B2A000CDF2C /* MLPAutoCompleteTextFieldDataSource.h */,
+				31F13FE01EC35B2A000CDF2C /* MLPAutoCompleteTextFieldDelegate.h */,
+				31F13FE11EC35B2A000CDF2C /* MLPAutoCompletionObject.h */,
+				31F13FE21EC35B2A000CDF2C /* NSString+Levenshtein.h */,
+				31F13FE31EC35B2A000CDF2C /* NSString+Levenshtein.m */,
+			);
+			path = MLPAutoCompleteTextField;
+			sourceTree = "<group>";
+		};
+		31F13FE61EC35B3E000CDF2C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3148A2BB1EC20EF300FBDD2A /* UIImage+Scale.swift */,
+				3148A2E11EC2D44600FBDD2A /* TimeframeViewController.swift */,
+				31F13FDC1EC35B2A000CDF2C /* MLPAutoCompleteTextField */,
+				3148A2BD1EC2D20900FBDD2A /* Sources */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314DFB2F1EC039E100CB2409 /* Coratem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314DFB451EC039E200CB2409 /* Build configuration list for PBXNativeTarget "Coratem" */;
+			buildPhases = (
+				314DFB2C1EC039E100CB2409 /* Sources */,
+				314DFB2D1EC039E100CB2409 /* Frameworks */,
+				314DFB2E1EC039E100CB2409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coratem;
+			productName = Coratem;
+			productReference = 314DFB301EC039E100CB2409 /* Coratem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314DFB281EC039E100CB2409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sachin Raut";
+				TargetAttributes = {
+					314DFB2F1EC039E100CB2409 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 48E693T92B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 314DFB2B1EC039E100CB2409 /* Build configuration list for PBXProject "Coratem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314DFB271EC039E100CB2409;
+			productRefGroup = 314DFB311EC039E100CB2409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314DFB2F1EC039E100CB2409 /* Coratem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314DFB2E1EC039E100CB2409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314DFB411EC039E100CB2409 /* LaunchScreen.storyboard in Resources */,
+				3148A2DC1EC2D20A00FBDD2A /* gl-calendar-magnify-glass@2x.png in Resources */,
+				3148A2DF1EC2D20A00FBDD2A /* gl-calendar-shadow@3x.png in Resources */,
+				3148A2DB1EC2D20A00FBDD2A /* gl-calendar-magnify-glass.png in Resources */,
+				3148A2D51EC2D20A00FBDD2A /* GLCalendarDayCell.xib in Resources */,
+				3148A2D91EC2D20A00FBDD2A /* GLCalendarView.xib in Resources */,
+				314DFB3E1EC039E100CB2409 /* Assets.xcassets in Resources */,
+				3148A2DD1EC2D20A00FBDD2A /* gl-calendar-shadow.png in Resources */,
+				314DFB391EC039E100CB2409 /* Main.storyboard in Resources */,
+				3148A2DE1EC2D20A00FBDD2A /* gl-calendar-shadow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314DFB2C1EC039E100CB2409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3148A2D31EC2D20A00FBDD2A /* GLCalendarDateRange.m in Sources */,
+				3148A2E21EC2D44600FBDD2A /* TimeframeViewController.swift in Sources */,
+				314DFB4D1EC0BE5700CB2409 /* MasterViewController.swift in Sources */,
+				31F13FE51EC35B2A000CDF2C /* NSString+Levenshtein.m in Sources */,
+				3148A2DA1EC2D20A00FBDD2A /* GLDateUtils.m in Sources */,
+				314DFB4B1EC0513300CB2409 /* DetailTableViewController.swift in Sources */,
+				3148A2D71EC2D20A00FBDD2A /* GLCalendarMonthCoverView.m in Sources */,
+				3148A2D61EC2D20A00FBDD2A /* GLCalendarDayCellBackgroundCover.m in Sources */,
+				314DFB341EC039E100CB2409 /* AppDelegate.swift in Sources */,
+				3148A2D41EC2D20A00FBDD2A /* GLCalendarDayCell.m in Sources */,
+				31F13FE41EC35B2A000CDF2C /* MLPAutoCompleteTextField.m in Sources */,
+				3148A2BC1EC20EF300FBDD2A /* UIImage+Scale.swift in Sources */,
+				314DFB3C1EC039E100CB2409 /* Coratem.xcdatamodeld in Sources */,
+				3148A2D81EC2D20A00FBDD2A /* GLCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		314DFB371EC039E100CB2409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314DFB381EC039E100CB2409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		314DFB3F1EC039E100CB2409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314DFB401EC039E100CB2409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314DFB431EC039E200CB2409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		314DFB441EC039E200CB2409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314DFB461EC039E200CB2409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Coratem/Coratem.entitlements;
+				DEVELOPMENT_TEAM = 48E693T92B;
+				INFOPLIST_FILE = Coratem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachinraut.Coratem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Coratem/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		314DFB471EC039E200CB2409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Coratem/Coratem.entitlements;
+				DEVELOPMENT_TEAM = 48E693T92B;
+				INFOPLIST_FILE = Coratem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachinraut.Coratem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Coratem/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314DFB2B1EC039E100CB2409 /* Build configuration list for PBXProject "Coratem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314DFB431EC039E200CB2409 /* Debug */,
+				314DFB441EC039E200CB2409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314DFB451EC039E200CB2409 /* Build configuration list for PBXNativeTarget "Coratem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314DFB461EC039E200CB2409 /* Debug */,
+				314DFB471EC039E200CB2409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		314DFB3A1EC039E100CB2409 /* Coratem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				314DFB3B1EC039E100CB2409 /* Coratem.xcdatamodel */,
+			);
+			currentVersion = 314DFB3B1EC039E100CB2409 /* Coratem.xcdatamodel */;
+			path = Coratem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 314DFB281EC039E100CB2409 /* Project object */;
+}
